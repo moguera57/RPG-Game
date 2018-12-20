@@ -1,0 +1,35 @@
+#game-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.character{
+    width: 250px;
+}
+
+.combat-card{
+    width: 250px;
+}
+
+#player-select{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#enemy-select{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#player{
+    display: flex;
+}
+
+#enemy{
+    border-top: 1px solid;
+    display: flex;
+}
+
+#resetBtn:hover{
+    cursor: pointer;
+}
